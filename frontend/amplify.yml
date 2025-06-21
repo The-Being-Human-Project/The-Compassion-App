@@ -1,12 +1,12 @@
 version: 1
 applications:
-  - appRoot: frontend
+  - appRoot: .
     frontend:
       phases:
         build:
           commands: []
       artifacts:
-        baseDirectory: frontend
+        baseDirectory: .
         files:
           - '**/*'
       cache:
