@@ -1,13 +1,11 @@
 version: 1
-applications:
-  - appRoot: .
-    frontend:
-      phases:
-        build:
-          commands: []
-      artifacts:
-        baseDirectory: .
-        files:
-          - '**/*'
-      cache:
-        paths: []
+frontend:
+  phases:
+    build:
+      commands: []
+  artifacts:
+    baseDirectory: .
+    files:
+      - '**/*'
+  cache:
+    paths: []
